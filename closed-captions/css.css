@@ -35,9 +35,27 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
+}
+.voice2 {
+	font-family: "Brenner Sans";
+ 	font-style: Normal;
+ 	font-weight: 400;
+	text-align: right;
+	width: 1024px;
+}
+.voice3 {
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
 }
 
+p {
+	font-family: "Brenner Sans";
+	font-size: 30px;
+}
 /* **********************************************
 The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
