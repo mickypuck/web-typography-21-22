@@ -47,10 +47,13 @@ Feel free to adjust the defaults to your needs.
 	text-align: right;
 	width: 1024px;
 }
-.voice3 {
+.fuckoff {
 	font-family: "Brenner Sans";
 	font-style: Normal;
 	font-weight: 800;
+	width: 204px;
+  font-size: 42px;
+	transform: translateY(-427px) translateX(-219px);
 }
 .voice4 {
 	font-family: "Brenner Sans";
@@ -61,6 +64,9 @@ p {
 	font-family: "Brenner Sans";
 	font-size: 25px;
 }
+.p0.on {
+	color: white;
+}
 /* **********************************************
 The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
@@ -69,7 +75,7 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
+/* .p0 span {
 	opacity: 0;
 	font-family: brenner;
 }
@@ -134,6 +140,7 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
+*/
 
 /* **********************************************
 Sounds.
@@ -148,6 +155,10 @@ Sounds.
 }
 .sound2 {
 	background: red;
+}
+
+.sound5 {
+	background: blue;
 }
 
 iframe {
