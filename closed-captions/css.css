@@ -4,6 +4,7 @@ body {
  grid-template-columns: 1fr auto 1fr;
  grid-template-rows: 1fr auto auto 1fr;
  height: 100vh;
+ background-color: black;
 }
 
 #closed-captions {
@@ -51,10 +52,14 @@ Feel free to adjust the defaults to your needs.
 	font-style: Normal;
 	font-weight: 800;
 }
-
+.voice4 {
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+}
 p {
 	font-family: "Brenner Sans";
-	font-size: 30px;
+	font-size: 25px;
 }
 /* **********************************************
 The first paragraph, with extended timing for
