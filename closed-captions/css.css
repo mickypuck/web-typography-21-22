@@ -5,6 +5,25 @@ body {
  grid-template-rows: 1fr auto auto 1fr;
  height: 100vh;
  background-color: black;
+
+overflow-x: hidden;
+}
+
+.bg-noise {
+	pointer-events: none;
+	filter:contrast(200%) brightness(10);
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .200s infinite;
+  opacity: 0;
+  visibility: visible;
 }
 
 #closed-captions {
@@ -54,6 +73,7 @@ Feel free to adjust the defaults to your needs.
 	width: 204px;
   font-size: 42px;
 	transform: translateY(-427px) translateX(-219px);
+	color: red;
 }
 .voice4 {
 	font-family: "Brenner Sans";
@@ -63,6 +83,7 @@ Feel free to adjust the defaults to your needs.
 p {
 	font-family: "Brenner Sans";
 	font-size: 25px;
+	color: white;
 }
 .p0.on {
 	color: white;
@@ -150,21 +171,157 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: yellow;
-}
-.sound2 {
-	background: red;
-}
 
-.sound5 {
-	background: blue;
-}
-
+/*
 iframe {
 	transition: 1s;
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
+/*
 .sound1 iframe {
 	transform: rotate(1turn);
+}
+*/
+.sound4, .sound8, .sound11 {
+	background-color: black;
+	-webkit-animation-name: whiteFlash;
+	-webkit-animation-duration: 0.2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+}
+.sound4 iframe, .sound8 iframe, .sound11 iframe {
+	-webkit-animation-name: shakeAnim;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.sound5 iframe, .sound9 iframe, .sound12 iframe {
+	-webkit-animation-name: none;
+}
+
+.sound5 {
+		-webkit-animation-name: none;
+	background-color: black;
+}
+
+
+.sound8{
+	background-color: black;
+	-webkit-animation-name: whiteFlash;
+	-webkit-animation-duration: 0.2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+}
+
+.sound8 iframe{
+	-webkit-animation-name: shakeAnim;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.sound9 iframe {
+	-webkit-animation-name: none;
+	transition: transform 55s;
+}
+
+.sound9{
+		-webkit-animation-name: none;
+	background-color: black;
+
+}
+
+.sound11 .bg-noise{
+	opacity: 1;
+}
+
+.sound10 iframe{
+	transform: scale(0.8);
+}
+.sound10{
+
+}
+
+.sound11 {
+	background-color: black;
+	-webkit-animation-name: whiteFlash;
+	-webkit-animation-duration: 0.2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.sound11 iframe {
+	-webkit-animation-name: shakeAnim;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.sound12 iframe {
+	-webkit-animation-name: none;
+}
+
+.sound12 {
+	-webkit-animation-name: none;
+	background-color: black;
+
+}
+.sound13 {
+	 transition: background-color 55s;
+	background-color: white;
+	 text-shadow: 1px 1px 10px #000;
+}
+
+.sound14 iframe{
+	transition: transform 0s;
+	transform: scale(1);
+}
+.sound14{
+	transition: background-color 0s;
+	color: black;
+
+}
+.sound14 .bg-noise{
+	opacity: 0;
+}
+
+
+@-webkit-keyframes whiteFlash {
+	0% { background-color: white;}
+	100% { background-color: black;}
+}
+
+
+@-webkit-keyframes shakeAnim {
+	0% { -webkit-transform: translate(4px, 2px) rotate(0deg); }
+	10% { -webkit-transform: translate(-2px, -4px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-6px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 4px) rotate(0deg); }
+	40% { -webkit-transform: translate(2px, -2px) rotate(1deg); }
+	50% { -webkit-transform: translate(-2px, 4px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-6px, 2px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 2px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-2px, -2px) rotate(1deg); }
+	90% { -webkit-transform: translate(4px, 4px) rotate(0deg); }
+	100% { -webkit-transform: translate(2px, -4px) rotate(-1deg); }
+}
+
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
 }
