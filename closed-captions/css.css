@@ -26,7 +26,7 @@ body {
   bottom: -50%;
   width: 200%;
   height: 200vh;
-  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background: transparent url('https://pngimage.net/wp-content/uploads/2018/06/noise-png-5.png') repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation .200s infinite;
   opacity: 0;
@@ -73,7 +73,7 @@ body {
 iframe {
  grid-column-start: 2;
  grid-row-start: 2;
- clip-path: inset( 4.8em -100px );
+ clip-path: inset( 4.81em -100px );
 }
 
 /* **********************************************
@@ -87,6 +87,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	transform: translateY(-80px);
 }
 #closed-captions .on {
 	opacity: 1;
@@ -107,7 +108,7 @@ Feel free to adjust the defaults to your needs.
 	text-align: right;
 	width: 1024px;
 }
-.fuckoff {
+#closed-captions p.fuckoff {
 	font-family: "Brenner Sans";
 	font-style: Normal;
 	font-weight: 800;
@@ -129,6 +130,8 @@ p {
 .p0.on {
 	color: white;
 }
+
+
 /* **********************************************
 The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
@@ -223,6 +226,7 @@ iframe {
 	transform: rotate(1turn);
 }
 */
+
 .sound0 {
 	background: linear-gradient(-45deg, #444, #666, #000, #000);
 	background-size: 400% 400%;
@@ -304,6 +308,7 @@ iframe {
 }
 
 .sound13 .bg-noise{
+	transition: opacity 55s;
 	opacity: 1;
 }
 
@@ -339,7 +344,10 @@ iframe {
 .sound15 {
 	 transition: background-color 55s;
 	background-color: white;
-	 text-shadow: 1px 1px 10px #000;
+}
+
+.sound15 p.on span{
+	background-color: black;
 }
 
 .sound16 iframe{
@@ -348,11 +356,22 @@ iframe {
 }
 .sound16{
 	transition: background-color 0s;
-	color: black;
-
+	background-color: transparent;
 }
+
+.sound15 p.p44.on span{
+	color: black;
+	background-color: transparent;
+}
+
+.sound16 p.on span{
+		color: black;
+	background-color: transparent;
+}
+
 .sound16 .bg-noise{
 	opacity: 0;
+	transition: transform 0s;
 }
 
 
