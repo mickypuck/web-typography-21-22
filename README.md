@@ -4,4 +4,4 @@ Ik heb met een clip-path de zwarte balken weggehaald, omdat ik het er zo mooier 
 
 Toen wij deze opdrachten kregen was mijn eerste idee om allemaal coole dingen te doen met de tekst. Bijvoorbeeld met het woord "spin" en "blood-black". Ik was ook begonnen om het script uit te schetsen met wat ik met de tekste wilde doen en de achtergrond etc. Ik moest een paar dingen dus schrappen, omdat het eigenlijk de bedoeling is om de geluiden te visualiseren. Ik ben na deze informatie dus ook opnieuw begonnen met schetsen.
 
-Op het begin van de video heb ik gekozen om een bewegende gradient (zwart-grijs-wit)  op de achtergrond te gebruiken die het geluid van de video een beetje vertaald. Het geluid is best moeilijk om te vertalen, maar ik vond dit persoonlijk erg goed werken. Het eerste alarm 
+Op het begin van de video heb ik gekozen om een bewegende gradient (zwart-grijs-wit)  op de achtergrond te gebruiken die het geluid van de video een beetje vertaald. Het geluid is best moeilijk om te vertalen, maar ik vond dit persoonlijk erg goed werken. Het eerste alarm (0,9s) 
