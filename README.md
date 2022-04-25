@@ -1,83 +1,27 @@
-# Web Typography, 2020/2021
+# Web Typography, ontwerpkeuzes
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Ik heb met een clip-path de zwarte balken weggehaald, omdat ik het er zo mooier uit vind zien. Ik heb gekozen om de kleuren zwart, wit en paars te gebruiken en niet te veel verschillende effecten toe te passen. Ik vind zelf dat het kinderachtig word als er allemaal (extreme) effecten zijn toegepast die de video bijvoorbeeld laat draaien etc. Dit is een aanname, maar als ik zelf doof zou zijn, zou ik hier niet heel blij van worden. Ik heb het dus vrij minimalistisch gehouden. Als je het zo kan noemen. Ik heb trouwens de kleur paars gekozen, omdat ik oranje, geel en rood te heftig vond voor de sfeer van de video. 
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Toen wij deze opdrachten kregen was mijn eerste idee om allemaal coole dingen te doen met de tekst. Bijvoorbeeld met het woord "spin" en "blood-black". Ik was ook begonnen om het script uit te schetsen met wat ik met de tekste wilde doen en de achtergrond etc. Ik moest een paar dingen dus schrappen, omdat het eigenlijk de bedoeling is om de geluiden te visualiseren. Ik ben na deze informatie dus ook opnieuw begonnen met schetsen.
 
-Dat kan visueel sterker. 
+Op het begin van de video heb ik gekozen om een bewegende gradient (zwart-grijs-wit)  op de achtergrond te gebruiken die het geluid van de video een beetje vertaald. Het geluid is best moeilijk om te vertalen, maar ik vond dit persoonlijk erg goed werken. Het eerste alarm (0,9s) vond ik heel moeilijk. Omdat het zo een low-key alarm is. Ik ben per toeval op de paarse gradient recht en links van de video gekomen. Ik wilde eigenlijk een balk rondom de video doen, die dan bewoog. Maar dat lukte niet, dus ik kwam na een tijdje hierop. Door de clip-path die ik heb gebruikt om de zwarte balken weg te halen, kwam er alleen rechts en links een paarse gradient en ik vond het er super cool uitzien.
 
-En dat gaan jullie doen.
+Voor het tweede alarm (12s) wilde ik het idee van de bewegende balk rondom de video proberen te coderen, maar dat lukte niet. Ik kwam per toeval op een gestreepte achtergrond op een website met achtergronden die je met css kan maken. Ik vond dat erg passen bij een alarm, dus heb ik dat als achtergrond gedaan.
 
-## Leerdoelen
+Verder in de video komt er hetzelfde alarm 3x voor en ik wilde het liefst zo consistent mogelijk blijven, dus heb ik daar hetzelfde effect toegepast. De zwarte/witte flashes en de trillende video. Dit was ook het eerste alarm die ik had gecodeerd, omdat ik na het horen van het alarm meteen wist wat ik wilde. Ik was wel bang dat het te saai zou zijn 3x hetzelfde, maar ik vond het heel goed werken. Het creeert een soort van opbouw.
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+De zin "Fuck off, skin-job" had ik eerst link van de video geplaatst. Groot, rood en bold. Na de feedback van de leraar over dat hij het eigenlijk helemaal niet schreeuwt, heb ik het aangepast. Nu heb ik het op de video geplaatst en kleiner gemaakt. Nu lijkt het meer als of hij het fluistert. Ik heb het wel rood en bold gelaten, omdat het nog steeds wel aggresief overkomt.
 
-## Oplevering
+Ook het deel met de lange piep en de stem uit de intercom had ik geluik gecodeerd, omdat ik meteen wist wat ik wilde doen. En gelukkig is dat ook heel goed gelukt! Ik had nog feedback gekregen van de leraar om de noise nog wat intenser te doen en dat heb ik daarna ook toepgepast. De video wordt ook langzaam kleiner, terwijl de noise en de pieptoon al erger worden. Dit vond ik erg gepast, omdat het een naar gevoel geeft, vind ik. Dat vind ik erg passen bij dit stuk. Over de tekst zat ik nog best lang te twijfelen. Ik wilde eerst dat de 'robot' stem, glitched. Maar na het een paar keer overnieuw te hebben geluisterd, lijkt het meer als of het uit een intercom komt. Een beetje haperend, als het ware. Ik heb er dus uiteindelijk voor gekozen om per woord een zwarte achtergrond te doen. Dit is ook een beetje toevallig gebeurd. Omdat de noise achtergrond van zwart naar wit gaat en de tekst wit is, kon je het niet meer lezen. Dus ik had eerst een schaduw geplaast, maar dat vond ik erg lelijk. Dus had ik een zwarte balk eronder gedaan en toen vond ik het super goed werken met de stem uit de intercom. Voor deze stem heb ik ook expres het mono font gebruikt.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+Op het eind van de scene met de pieptoon, springt de video weer terug naar het normale formaat en is de achtergrond weer wit. Ik heb hiervoor gekozen, omdat het 'eindelijk voorbij' is. De personage uit de scene is klaar met wat hij moest doen, de pieptoon is weg. Een schone lei.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
 
-## Typografische restricties
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
 
-### Optie 1: Systeemfont
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
 
-### Optie 2: Brenner
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
