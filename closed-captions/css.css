@@ -16,6 +16,8 @@ body {
 
 }
 
+/* https://codepen.io/iceable/pen/yLBrZOd */
+
 .bg-noise {
 	pointer-events: none;
 	filter:contrast(200%) brightness(10);
@@ -32,6 +34,8 @@ body {
   opacity: 0;
   visibility: visible;
 }
+
+/* https://codepen.io/YusukeNakaya/pen/xNdvKW */
 
 .sound3::before {
     content: '';
@@ -70,6 +74,7 @@ body {
  grid-column-start: 2;
  grid-row-start: 3;
 }
+
 iframe {
  grid-column-start: 2;
  grid-row-start: 2;
@@ -409,6 +414,7 @@ iframe {
     100% { transform: translate(5%,0) }
 }
 
+/* https://codepen.io/P1N2O/pen/pyBNzX */
 
 @keyframes gradient {
 	0% {
