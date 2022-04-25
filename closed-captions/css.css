@@ -127,6 +127,13 @@ Feel free to adjust the defaults to your needs.
 	font-style: Normal;
 	font-weight: 800;
 }
+
+.voice4 {
+	font-family: "Brenner Slab";
+	font-style: Normal;
+	font-weight: 400;
+}
+
 p {
 	font-family: "Brenner Sans";
 	font-size: 25px;
