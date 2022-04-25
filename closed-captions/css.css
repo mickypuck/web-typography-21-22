@@ -362,11 +362,16 @@ iframe {
 	background-color: black;
 }
 
-.sound16 iframe{
+.sound16 .bg-noise{
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.sound17 iframe{
 	transition: transform 0s;
 	transform: scale(1);
 }
-.sound16{
+.sound17{
 	transition: background-color 0s;
 	background-color: transparent;
 }
@@ -376,14 +381,9 @@ iframe {
 	background-color: transparent;
 }
 
-.sound16 p.on span{
+.sound17 p.on span{
 		color: black;
 	background-color: transparent;
-}
-
-.sound16 .bg-noise{
-	opacity: 0;
-	transition: transform 0s;
 }
 
 
