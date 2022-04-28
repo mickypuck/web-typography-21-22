@@ -16,69 +16,25 @@ body {
 
 }
 
-/* Code van Mathieu S. https://codepen.io/iceable/pen/yLBrZOd */
-
-.bg-noise {
-	pointer-events: none;
-	filter:contrast(200%) brightness(10);
-	position: fixed;
-	top: -50%;
-	left: -50%;
-	right: -50%;
-	bottom: -50%;
-	width: 200%;
-	height: 200vh;
-	background: transparent url('https://pngimage.net/wp-content/uploads/2018/06/noise-png-5.png') repeat 0 0;
-	background-repeat: repeat;
-	animation: bg-animation .200s infinite;
-	opacity: 0;
-	visibility: visible;
+iframe {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	clip-path: inset( 4.81em -100px );
 }
 
-/* Code van Yusuke Nakaya https://codepen.io/YusukeNakaya/pen/xNdvKW */
-
-.sound3::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: calc(100% + var(--stripe-size));
-	height: 100%;
-	background: repeating-linear-gradient(
-		45deg,
-		var(--color2) 25%,
-		var(--color2) 50%,
-		var(--color1) 50%,
-		var(--color1) 75%
-		);
-		background-size: var(--stripe-size) var(--stripe-size);
-		animation: stripeTransform var(--duration) linear infinite;
+	p {
+		font-family: "Brenner Sans";
+		font-size: 25px;
+		color: white;
 	}
 
-	.sound3::after {
-		content: none;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, #000 100%);
-	}
-
-	.sound4::before {
-		content: none;
-	}
-	.sound4::after {
-		content: none;
+	.p0.on {
+		color: white;
 	}
 
 	#closed-captions {
 		grid-column-start: 2;
 		grid-row-start: 3;
-	}
-
-	iframe {
-		grid-column-start: 2;
-		grid-row-start: 2;
-		/*clip-path: inset( 4.81em -100px );*/
 	}
 
 	/* **********************************************
@@ -94,13 +50,18 @@ body {
 		position: absolute;
 		transform: translateY(-80px);
 	}
+
 	#closed-captions .on {
 		opacity: 1;
 	}
+
 	#closed-captions .off {
 		transition: .2s;
 		opacity: 0;
 	}
+
+	/* Alle voices */
+
 	.voice1 {
 		font-family: "Brenner Mono";
 		font-style: Normal;
@@ -132,15 +93,6 @@ body {
 		font-family: "Brenner Slab";
 		font-style: Normal;
 		font-weight: 400;
-	}
-
-	p {
-		font-family: "Brenner Sans";
-		font-size: 25px;
-		color: white;
-	}
-	.p0.on {
-		color: white;
 	}
 
 
@@ -216,9 +168,53 @@ font-family: "brenner mono";
 opacity: 1;
 transition: 0s 3.7s;
 font-family: "brenner slab";
-}
-*/
+}*/
+/* Alle aparte woorden */
 
+.p52.on span:nth-of-type(13) {
+	font-style: italic;
+	font-family: "Brenner Sans Condensed";
+}
+.p54.on span {
+	font-style: italic;
+}
+.p54.on span:nth-of-type(1) {
+	font-style: normal;
+	font-family: "Brenner Slab";
+}
+.p54.on span:nth-of-type(12) {
+	color: pink;
+}
+
+.p61.on span:nth-of-type(8) {
+	font-style: oblique;
+	font-family: "Brenner Sans Condensed";
+}
+
+.p65.on span {
+font-size: 30px;
+}
+
+.p67.on span {
+font-style: oblique;
+font-size: 30px;
+}
+
+.p71.on span {
+font-size: 30px;
+}
+
+.p73.on span {
+font-size: 30px;
+}
+
+.p75.on span {
+font-size: 30px;
+}
+
+.p77.on span {
+font-size: 35px;
+}
 /* **********************************************
 Sounds.
 You can style the whole body, or you can
@@ -233,11 +229,8 @@ iframe {
 transition: 1s;
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-/*
-.sound1 iframe {
-transform: rotate(1turn);
-}
-*/
+
+/* Alle Sounds */
 
 .sound0 {
 	background: linear-gradient(-45deg, #444, #666, #000, #000);
@@ -265,6 +258,41 @@ transform: rotate(1turn);
 	box-shadow: none;
 }
 
+/* Code van Yusuke Nakaya https://codepen.io/YusukeNakaya/pen/xNdvKW */
+
+.sound3::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100% + var(--stripe-size));
+	height: 100%;
+	background: repeating-linear-gradient(
+		45deg,
+		var(--color2) 25%,
+		var(--color2) 50%,
+		var(--color1) 50%,
+		var(--color1) 75%
+		);
+		background-size: var(--stripe-size) var(--stripe-size);
+		animation: stripeTransform var(--duration) linear infinite;
+	}
+
+	.sound3::after {
+		content: none;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, #000 100%);
+	}
+
+	.sound4::before {
+		content: none;
+	}
+	.sound4::after {
+		content: none;
+	}
+
 .sound6, .sound10, .sound13 {
 	background-color: black;
 	-webkit-animation-name: whiteFlash;
@@ -289,7 +317,6 @@ transform: rotate(1turn);
 	-webkit-animation-name: none;
 	background-color: black;
 }
-
 
 .sound10{
 	background-color: black;
@@ -319,13 +346,13 @@ transform: rotate(1turn);
 
 }
 
+.sound12 iframe{
+	transform: scale(0.6);
+}
+
 .sound13 .bg-noise{
 	transition: opacity 55s;
 	opacity: 1;
-}
-
-.sound12 iframe{
-	transform: scale(0.6);
 }
 
 .sound13 {
@@ -362,6 +389,11 @@ transform: rotate(1turn);
 	background-color: black;
 }
 
+.sound15 p.p44.on span{
+	color: black;
+	background-color: transparent;
+}
+
 .sound16 .bg-noise{
 	opacity: 0;
 	transition: opacity 1s;
@@ -376,11 +408,6 @@ transform: rotate(1turn);
 	background-color: transparent;
 }
 
-.sound15 p.p44.on span{
-	color: black;
-	background-color: transparent;
-}
-
 .sound17 p.on span{
 	color: black;
 	background-color: transparent;
@@ -392,20 +419,54 @@ transform: rotate(1turn);
 	animation: gradient 10s ease infinite;
 }
 
+.sound18 iframe{
+	-webkit-animation-name: floatShake;
+	-webkit-animation-duration: 10s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+.sound18 p.on span{
+	color: white;
+}
+
 .sound19 {
+	-webkit-animation-name: shakeAnimSmall;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.sound20 {
+	-webkit-animation-name: none;
+}
+
+.sound21 {
 	animation: none;
 	background-color: black;
 	background:black;
 }
-
-
+.sound21 iframe{
+	animation: none;
+}
 
 @-webkit-keyframes whiteFlash {
 	0% { background-color: white;}
 	100% { background-color: black;}
 }
 
+/* Code van Ghost Rider https://codepen.io/GhostRider/pen/bGEZNz?css-preprocessor=scss */
 
+@-webkit-keyframes floatShake {
+	0% { -webkit-transform: translate(9px, 5px) }
+	20% { -webkit-transform: translate(-13px, -1px) }
+	40% { -webkit-transform: translate(4px, -5px) }
+	60% { -webkit-transform: translate(-13px, 5px) }
+	80% { -webkit-transform: translate(-5px, -5px) }
+	100% {  -webkit-transform: translate(9px, 5px) }
+}
 @-webkit-keyframes shakeAnim {
 	0% { -webkit-transform: translate(4px, 2px) rotate(0deg); }
 	10% { -webkit-transform: translate(-2px, -4px) rotate(-1deg); }
@@ -418,6 +479,20 @@ transform: rotate(1turn);
 	80% { -webkit-transform: translate(-2px, -2px) rotate(1deg); }
 	90% { -webkit-transform: translate(4px, 4px) rotate(0deg); }
 	100% { -webkit-transform: translate(2px, -4px) rotate(-1deg); }
+}
+
+@-webkit-keyframes shakeAnimSmall {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-0.5deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(0.5deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(0.5deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-0.5deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(1px, 1px) rotate(-0.5deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(0.5deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-0.5deg); }
 }
 
 @keyframes bg-animation {
@@ -466,4 +541,23 @@ transform: rotate(1turn);
 	100% {
 		background-position: calc(var(--stripe-size) * -1) 0;
 	}
+}
+
+/* Code van Mathieu S. https://codepen.io/iceable/pen/yLBrZOd */
+
+.bg-noise {
+	pointer-events: none;
+	filter:contrast(200%) brightness(10);
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	right: -50%;
+	bottom: -50%;
+	width: 200%;
+	height: 200vh;
+	background: transparent url('https://pngimage.net/wp-content/uploads/2018/06/noise-png-5.png') repeat 0 0;
+	background-repeat: repeat;
+	animation: bg-animation .200s infinite;
+	opacity: 0;
+	visibility: visible;
 }
