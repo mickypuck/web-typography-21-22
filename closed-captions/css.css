@@ -16,7 +16,7 @@ body {
 
 }
 
-/* https://codepen.io/iceable/pen/yLBrZOd */
+/* Code van Mathieu S. https://codepen.io/iceable/pen/yLBrZOd */
 
 .bg-noise {
 	pointer-events: none;
@@ -35,7 +35,7 @@ body {
   visibility: visible;
 }
 
-/* https://codepen.io/YusukeNakaya/pen/xNdvKW */
+/* Code van Yusuke Nakaya https://codepen.io/YusukeNakaya/pen/xNdvKW */
 
 .sound3::before {
     content: '';
@@ -421,7 +421,7 @@ iframe {
     100% { transform: translate(5%,0) }
 }
 
-/* https://codepen.io/P1N2O/pen/pyBNzX */
+/* Code van Manuel Pinto https://codepen.io/P1N2O/pen/pyBNzX */
 
 @keyframes gradient {
 	0% {
