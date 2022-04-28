@@ -63,7 +63,6 @@ captions[44] = ['77.1','78.7'];
 captions[45] = ['80','81.738'];
 captions[46] = ['82.2','84.3'];
 captions[47] = ['85.4','87'];
-
 //end manual labour
 captions[48] = ['87.68','88.18'];
 captions[49] = ['88.38','88.88'];
