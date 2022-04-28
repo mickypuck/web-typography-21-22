@@ -1,4 +1,4 @@
-# Web Typography, ontwerpkeuzes
+# Web Typography, ontwerpproces en ontwerpkeuzes
 
 Ik heb met een clip-path de zwarte balken weggehaald, omdat ik het er zo mooier uit vind zien. Ik heb gekozen om de kleuren zwart, wit en paars te gebruiken en niet te veel verschillende effecten toe te passen. Ik vind zelf dat het kinderachtig word als er allemaal (extreme) effecten zijn toegepast die de video bijvoorbeeld laat draaien etc. Dit is een aanname, maar als ik zelf doof zou zijn, zou ik hier niet heel blij van worden. Ik heb het dus vrij minimalistisch gehouden. Als je het zo kan noemen. Ik heb trouwens de kleur paars gekozen, omdat ik oranje, geel en rood te heftig vond voor de sfeer van de video. 
 
@@ -16,7 +16,7 @@ Ook het deel met de lange piep en de stem uit de intercom had ik geluik gecodeer
 
 Op het eind van de scene met de pieptoon, springt de video weer terug naar het normale formaat en is de achtergrond weer wit. Ik heb hiervoor gekozen, omdat het 'eindelijk voorbij' is. De personage uit de scene is klaar met wat hij moest doen, de pieptoon is weg. Een schone lei.
 
-
+Bij het tweede deel van de video heb ik ook een bewegende gradient toegepast op de achtergrond.
 
 
 
