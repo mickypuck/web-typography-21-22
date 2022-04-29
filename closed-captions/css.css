@@ -139,6 +139,11 @@ p {
 }
 
 /* Alle Sounds */
+.sound0 {
+  background: linear-gradient(-45deg, #444, #6a0dad, #000, #000);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
 
 .sound1 {
   animation: none;
