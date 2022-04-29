@@ -140,7 +140,7 @@ p {
 
 /* Alle Sounds */
 .sound0 {
-  background: linear-gradient(-45deg, #444, #666, #000, #000);
+  background: linear-gradient(-45deg, #444, #6a0dad, #000, #000);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
@@ -338,7 +338,7 @@ p {
 .sound18 {
   background: linear-gradient(-45deg, #444, #666, #000, #000);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 .sound18 iframe {
@@ -353,7 +353,7 @@ p {
   color: white;
 }
 
-.sound19 {
+.sound19 iframe{
   -webkit-animation-name: shakeAnimSmall;
   -webkit-animation-duration: 0.2s;
   -webkit-transform-origin: 50% 50%;
@@ -361,7 +361,7 @@ p {
   -webkit-animation-timing-function: linear;
 }
 
-.sound20 {
+.sound20 iframe{
   -webkit-animation-name: none;
 }
 
